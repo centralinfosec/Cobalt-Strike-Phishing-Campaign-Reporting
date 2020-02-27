@@ -13,18 +13,18 @@ PhishReportCS is a penetration testing and red teaming tool that automates the p
 ## Requirements
 
  - Cobalt Strike
- - [Custom Cobalt Strike Aggressor Script (PhishingProfiler.cna)](https://github.com/jamesm0rr1s/Cobalt-Strike-Aggressor-Scripts)
+ - [Custom Cobalt Strike Aggressor Script (PhishingProfiler.cna)](https://github.com/centralinfosec/Cobalt-Strike-Aggressor-Scripts)
  
 ## Installation
 
 Clone the GitHub repository
 ```
-git clone https://github.com/jamesm0rr1s/Cobalt-Strike-Phishing-Campaign-Reporting /opt/jamesm0rr1s/Cobalt-Strike-Phishing-Campaign-Reporting
+git clone https://github.com/centralinfosec/Cobalt-Strike-Phishing-Campaign-Reporting /opt/Central-InfoSec/Cobalt-Strike-Phishing-Campaign-Reporting
 ```
 
 ## Usage
 
- - Load the [Custom Cobalt Strike Aggressor Script (PhishingProfiler.cna)](https://github.com/jamesm0rr1s/Cobalt-Strike-Aggressor-Scripts)
+ - Load the [Custom Cobalt Strike Aggressor Script (PhishingProfiler.cna)](https://github.com/centralinfosec/Cobalt-Strike-Aggressor-Scripts)
  - Execute a phishing campaign with Cobalt Strike
  - Export the Cobalt Strike phishing data in TSV files
  - Update the directory names in the PowerShell script (Lines 14, 17, & 20)
